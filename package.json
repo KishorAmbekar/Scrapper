@@ -4,6 +4,7 @@
   "description": "Headless scraper for UPI intents",
   "main": "index.js",
   "scripts": {
+    "build": "npm install && npx puppeteer browsers install chrome",
     "start": "node index.js"
   },
   "dependencies": {
